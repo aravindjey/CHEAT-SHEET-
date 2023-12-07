@@ -1,0 +1,58 @@
+install vs code , node js , git and github if not available
+in desktop create a new folder and open it 
+right click and select open with vs code
+select terminal button on the top and authorise it
+now click on terminal on the top and select new terminal
+not type the following code on the bottom terminal bar:
+1. git config --global user.name "your name"
+2. git config --global user.email "your email"
+click enter
+3.npm create react-app myapp
+press y and enter
+in left side open src file and in that click app.js
+in the code delete all the lines and type the below code 
+
+1. import './App.css';
+
+2. function App() {
+3.  return (
+4.     <div>
+5.      <h1>WELCOME TO MY WEB APPLICATION</h1>
+6.    </div>
+7.  );
+8. }
+
+9. export default App;
+
+after entering the code 
+now type in the terminal box below
+1. npm start
+
+THE WEB PAGE WILL BE COMPILED SUCESSFULLY
+
+now in vs code terminal click ctrl+c and then press y 
+
+TYPE THE code
+
+1. git init
+2. git add .
+3. git commit -m "react"
+4. git remote add origin \\create a new repo named "react" in github account and paste the link here\\
+5. git branch -M main
+6. git push -u origin main
+
+sign in with browser pop up will arise and sign in to get authentication suceeded
+
+
+log in to aws console
+and search for AWS amplify
+select github and click authorixe aws amplify 
+in the next appearing screen select only selected reposotories 
+and choose the reposotory react and click install and authorize
+in the next page select react reposotory from recently updated reposotories box and click next
+in next page scroll down and click save and deploy
+ONCE THE PROCESS IS COMPLETED 
+CLICK THE AMPLIFYAPP.COM LINK 
+AND HENCE OUTPUT IS SHOWN
+
+
