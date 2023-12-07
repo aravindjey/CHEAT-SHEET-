@@ -1,0 +1,39 @@
+// INSTALLING GIT AND GIT COMMANDS
+
+1. Download git from web browser (https://git-scm.com/downloads)
+2. select download for windows 
+3. after select this option ➝➝ 64-bit Git for Windows Setup.
+4. after downloading open git application .
+5. setup window will pop in that ➝ keep clicking next and in final choose launch gitbash and click finish 
+6. in git app 
+➝ git -v
+7. close git app and create new folder in desktop 
+8. open folder and right click and choode option ➝ open git bash here 
+9. type the code below 
+10. git config --global user.name "your name"
+11. git config global user.email "your email"
+12. git init
+13. git status
+14. touch index.html
+15. git status
+16. git add .
+17. git commit -m "first commit"
+18. git status
+19. git branch 
+20. git log
+21. git branch main
+22. git checkout main
+23. git branch 
+24. touch style.css
+25. git status
+26. git add .
+27. git commit -m "added css file"
+28. git status
+29. git merge master 
+// *optional 
+30. git branch master
+31. git checkout master
+32. git branch 
+33. git checkout main
+34. git checkout master
+35. git merge main 
