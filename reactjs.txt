@@ -1,0 +1,10 @@
+in desktop create a new folder and open it 
+right click and select open with vs code
+select terminal button on the top and authorise it
+now click on terminal on the top and select new terminal
+not type the following code on the bottom terminal bar:
+
+1. npm create react-app <any name>
+2. click y and press enter
+3. cd <given name on code line 1>
+4. npm start
