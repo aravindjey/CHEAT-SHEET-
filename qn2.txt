@@ -1,0 +1,17 @@
+log in with your email account in browser
+in web server open github.com
+log in to your git hub account 
+select create repository 
+enter your repository name
+scroll down and select create repository
+now repository has been created 
+scroll down to (...or push an existing repository from command line)
+minimize the browser 
+now open the folder created on experiment one 
+right click on the screen and type open git bash here
+type the following commands given below :
+1. git status
+2. git remote add origin (copy and paste the link on github [refer line no 7])
+3.git branch -M main
+4. git push -u origin main
+NOW GO BACK TO github page and reload now the repository has been pushed 
