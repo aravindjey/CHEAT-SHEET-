@@ -1,0 +1,26 @@
+create a repository name mini project and push the same to git hub
+log in with your email account in browser
+in web server open github.com
+log in to your git hub account 
+select create repository 
+enter your repository name as mini-project 
+mark it as public
+select create new repository 
+scroll down to (...or push an existing repository from command line)
+minimize the browser 
+in desktop create a new folder and name it mini-project
+now open the folder mini-project 
+right click on the screen and select open git bash here
+now type the following commands
+1. mkdir mini-project-1
+2. touch index.html
+NOW open the folder and right click  index.html file ➝ open with ➝ choose another app ➝ select notepad
+in notepad type the following commands :
+1. <html>
+2. <body>
+3. <h1> HELLO WORLD ! </h1>
+4. </body>
+5. </html>
+now click button (ctrl+s)
+now open the index.html file and show the output hence done!
+ 
