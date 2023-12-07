@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form id="loginForm">
+        <label for="username">Username</label>
+        <input type="text" id="username" required>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" required>
+        <br><br>
+        <input type="submit" value="Login">
+    </form>
+
+    <div id="successMessage" style="display:none; color:green;">
+        <h2>Login Successful!</h2>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            // Example validation (you should implement your own authentication logic here)
+            if (username === 'arav' && password === '1234') {
+                document.getElementById('loginForm').style.display = 'none';
+                document.getElementById('successMessage').style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>
