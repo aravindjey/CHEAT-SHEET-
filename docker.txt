@@ -1,0 +1,36 @@
+go to browser and search abs.play-with-docker.com
+click login button and sign in with your google or github account
+click start
+in left side of screen select add instance
+and now click on EDITOR 
+a new screen will pop and in thar select the root and type the code below *dont copy paste the code wont work
+
+1.FROM nginx:latest
+2. EXPOSE 80
+3. CMD ["echo","This is a sucessful Run"]
+CLICK save and close it
+in main terminal type the code below :
+1. mv root Dockerfile
+2. ls
+3. docker build -t <your name> .
+4. docker run <your name>
+
+now click on add new instance on the left screen 
+and click on editor 
+a new window will pop
+select root and type the code below :
+
+1.FROM nginx:latest
+now save and close it 
+
+again in new instance trminal type the code below :
+1. mv root Dockerfile
+2. ls
+3. docker build -t <someother name> .
+4. docker run -p 8080:80 <someother name>
+
+
+NOW CLICK open port on the top near ip and enter 8080
+
+nginx page will appear 
+hence done
