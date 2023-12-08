@@ -1,0 +1,30 @@
+in desktop create a new folder and open it 
+right click and select open with vs code
+select terminal button on the top and authorise it
+now click on terminal on the top and select new terminal
+not type the following code on the bottom terminal bar:
+
+1. npm create react-app <any name>
+2. click y and press enter
+3. cd <given name on code line no 1 >
+4. npm start
+5. after that select SRC on the left side and select app.js 
+6. now delete  the code in app.js
+7. perform the code given below :
+
+import React from 'react'
+import './App.css'
+
+const Greeting = () => {
+  return <h1>Hello, Welcome to My React App!</h1>
+}
+
+function App() {
+  return (
+    <div>
+        <Greeting />
+    </div>
+  )
+}
+
+export default App
