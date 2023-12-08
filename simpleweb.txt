@@ -1,0 +1,21 @@
+in aws instance
+select server manager
+add roles and features 
+next next next
+in server roles select web server(iis)
+inside VM login aws with http and https on
+select iis on left side 
+select tools on top right  and click internet service manager 
+in the new pop up window on left side select sites and right click on default web browser and click explore 
+minimize all tabs and open server manager tabs
+in the poped up window on right bottom click browse *80 (http)
+now on files right click on iisstart and select option open with notepad
+in notepad delete the existing code and type the code below :
+<html>
+<body>
+<h1>hello world</h1>
+</body>
+</html>
+ctrl + s
+now open the created web browser and reload
+
