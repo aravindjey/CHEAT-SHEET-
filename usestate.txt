@@ -1,0 +1,44 @@
+in desktop create a new folder and open it 
+right click and select open with vs code
+select terminal button on the top and authorise it
+now click on terminal on the top and select new terminal
+not type the following code on the bottom terminal bar:
+
+1. npm create react-app <any name>
+2. click y and press enter
+3. cd <given name on code line no 1 >
+4. npm start
+
+5. after that select SRC on the left side and select app.js 
+6. now delete  the code in app.js
+7. perform the code given below :
+
+import React, { useState } from 'react';
+import './App.css';
+
+function App() {
+  const [count, setCount] = useState(0);
+
+  const increment = () => {
+    setCount(count + 1);
+  };
+
+  const decrement = () => {
+    setCount(count - 1);
+  };
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Counter App</h1>
+        <h2>{count}</h2>
+        <button onClick={increment}>Increase</button>
+        <button onClick={decrement}>Decrease</button>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+
+
