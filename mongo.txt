@@ -1,0 +1,22 @@
+use student
+show dbs
+db.createCollection("s")
+show collections
+db.s.insertOne({regno:111,name:"taman"})
+db.s.insertMany([{regno:222,name:"pavan"},{regno:333,name:"rajj"},{regno:444,name:"rishi"}])
+db.s.find()
+db.s.find({regno:222})
+db.s.updateOne({regno:333},{$set:{name:"Harish"}})
+db.s.find()
+db.s.insertOne({regno:444,name:"rahul"})
+db.s.find()
+db.s.updateMany({regno:444},{$set:{name:"avinash"}})
+db.s.find()
+db.s.updateMany({},{$set:{name:"raveesh"}})
+db.s.find()
+db.s.deleteOne({regno:111})
+db.s.find()
+db.s.deleteMany({regno:444})
+db.s.find()
+db.s.deleteMany({})
+db.s.find()
