@@ -1,0 +1,21 @@
+pipeline {
+agent any
+stages {
+stage('checkout') {
+steps {
+<Generated pipeline script for git: checkout>
+}
+}
+stage('build') {
+steps {
+<Generated pipeline script for git: Git>
+Bat label: '',script: 'node <file_name>.js'
+}
+}
+stage('test') {
+steps {
+echo 'Test was successful'
+}
+}
+}
+}
